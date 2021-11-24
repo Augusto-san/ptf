@@ -2,7 +2,6 @@
 	<div id="main">
 
 		{% if page.url == "/index/" %}
-
 			{% include posts.html %}
 			<!-- Pagination -->
 			<ul class="actions pagination">
@@ -11,11 +10,9 @@
 			</ul>
 
 		{% elsif page.url == "/cv/" %}
-
 			{% include cv.html %}
 
 		{% elsif page.url == "/projetos/" %}
-
 			{% include projetos.html %}
 			<!-- Pagination -->
 <!-- 			<ul class="actions pagination">
@@ -24,7 +21,6 @@
 			</ul> -->
 
 		{% elsif page.url == "/blog/" %}
-
 			{% include projetos.html %}
 			<!-- Pagination -->
 			<ul class="actions pagination">
@@ -33,7 +29,6 @@
 			</ul>
 
 		{% elsif page.url == "/contact/" %}
-
 			{% include contact.html %}
 
 		{% endif %}
