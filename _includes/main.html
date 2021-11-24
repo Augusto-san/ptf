@@ -1,8 +1,15 @@
 <!-- Main -->
 	<div id="main">
 
+		{% if page.url == "/index/" %}
 
-		{% include posts.html %}
+			{% include posts.html %}
+
+		{% elsif page.url == "/cv/" %}
+
+			{% include cv.html %}
+
+		{% endif %}
 
 		<!-- Pagination -->
 			<ul class="actions pagination">
