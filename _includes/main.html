@@ -4,7 +4,6 @@
 		{% if page.url == "/index/" %}
 
 			{% include posts.html %}
-
 			<!-- Pagination -->
 			<ul class="actions pagination">
 				<li><a href="" class="disabled button big previous">Anterior</a></li>
@@ -14,6 +13,24 @@
 		{% elsif page.url == "/cv/" %}
 
 			{% include cv.html %}
+
+		{% elsif page.url == "/projetos/" %}
+
+			{% include projetos.html %}
+			<!-- Pagination -->
+<!-- 			<ul class="actions pagination">
+				<li><a href="" class="disabled button big previous">Anterior</a></li>
+				<li><a href="#" class="button big next">Próxima</a></li>
+			</ul> -->
+
+		{% elsif page.url == "/blog/" %}
+
+			{% include projetos.html %}
+			<!-- Pagination -->
+			<ul class="actions pagination">
+				<li><a href="" class="disabled button big previous">Anterior</a></li>
+				<li><a href="#" class="button big next">Próxima</a></li>
+			</ul>
 
 		{% endif %}
 
