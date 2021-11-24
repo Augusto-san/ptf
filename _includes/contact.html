@@ -10,8 +10,54 @@
 				<a href="#" class="author"><span class="name">Jane Doe</span><img src="{{ site.url }}/images/avatar.jpg" alt="" /></a>
 			</div> -->
 		</header>
-<!-- 		<a href="#" class="image featured"><img src="{{ site.url }}/images/pic01.jpg" alt="" /></a> -->
-		<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+<!-- 		<a href="#" class="image featured"><img src="{{ site.url }}/images/pic01.jpg" alt="" /></a> 
+		<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>-->
+
+<!-- 		<section id="contact7">
+			<div class="container7">
+				<div class="row7">
+					<div class="coluna7">
+						<h2>Contato</h2>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row7">
+					<div class="coluninha7">
+						<form action="" method="POST" name="sentMessage" id="concatForm7" novalidate>
+							<div class="controle7">
+								<div class="">
+									<lsbrl
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</section> -->
+
+		<form action="" method="POST" name="sentMessage" id="contactForm" novalidate>
+			<div>
+				<label for="name">Nome</label>
+				<input type="text" id="name" name="name" id="name" required data-validation-required-message="Campo Obrigatório">
+			</div>
+			<div>
+				<br>
+				<label for="email">E-mail</label>
+				<input type="email" id="name" name="name" required data-validation-required-message="Campo Obrigatório">
+			</div>
+			<div>
+				<br>
+				<label for="message">Mensagem</label>
+				<textarea rows="5" name="message" placeholder="Digite aqui sua mensagem e seja educado, por gentileza." id="message" required data-validation-required-message="Campo Obrigatório"></textarea>
+			</div>
+			<br>
+			<div>
+				<button type="submit">Enviar</button>
+			</div>
+		</form>
 
 		<footer>
 <!-- 			<ul class="stats">
