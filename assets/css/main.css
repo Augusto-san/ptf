@@ -316,6 +316,8 @@
 
 	@media screen and (max-width: 1680px) {
 
+
+
 		.row > * {
 			padding: 0 0 0 1em;
 		}
@@ -530,7 +532,6 @@
 	}
 
 	@media screen and (max-width: 1280px) {
-
 
 
 		.row > * {
@@ -1434,16 +1435,18 @@
 		line-height: 1.75;
 	}
 
+		/* esse aqui funciona, até 1680px essa formatação é aplicada */
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
 
+
 		}
 
+		/* esse aqui faz diferença, até 1280px essa formatação será aplicada */
 		@media screen and (max-width: 1280px) {
-
 
 
 
@@ -2278,6 +2281,7 @@
 					content: '\f053';
 				}
 
+				/* esse aqui também faz diferença, até 1280px essa formatação será aplicada */
 			@media screen and (max-width: 1280px) {
 
 
@@ -2536,8 +2540,8 @@
 		margin: 0 0 2em 0;
 	}
 
+		/* esse aqui faz diferença, até 1280px essa formatação será aplicada */
 		@media screen and (max-width: 1280px) {
-
 
 
 
@@ -3182,6 +3186,7 @@
 			opacity: 0.15;
 		}
 
+		/* esse aqui funciona, até 1680px essa formatação é aplicada */
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
@@ -3190,8 +3195,8 @@
 
 		}
 
+		/* esse aqui faz diferença, até 1280px essa formatação será aplicada */
 		@media screen and (max-width: 1280px) {
-
 
 			#wrapper {
 				display: block;
@@ -3242,7 +3247,9 @@
 			padding-top: 0;
 		}
 
+		/* esse aqui funciona, até 1280px essa formatação será aplicada */
 		@media screen and (max-width: 1280px) {
+
 
 
 			#sidebar {
@@ -3310,9 +3317,8 @@
 		text-align: center;
 	}
 
+	/* esse aqui funciona, até 1280px essa formatação será aplicada */
 	@media screen and (max-width: 1280px) {
-
-
 
 		#intro {
 			margin: 0 0 3em 0;
