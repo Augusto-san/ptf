@@ -3248,7 +3248,7 @@
 	#intro .logo {
 		border-bottom: 0;
 		display: inline-block;
-		margin: 0 0 1em 40%;
+		margin: 0 0 1em 0;
 		overflow: hidden;
 		position: relative;
 		width: 4em;
@@ -3444,4 +3444,10 @@
 				padding: 1.5em;
 			}
 
+		}
+
+		/** A PARTIR DE 1025PX SERÁ APLICADA ESSA FORMATAÇÃO **/
+		@media(min-width: 1285px){
+			#intro .logo {
+				margin: 0 0 1em 40%;
 		}
