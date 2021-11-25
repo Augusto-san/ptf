@@ -3,7 +3,7 @@
 
 
 
-		{% if page.url == "/index/" %}
+		{% if permalink == "/index/" %}
 			{% include posts.html %}
 			<!-- Pagination -->
 <!-- 			<ul class="actions pagination">
@@ -12,14 +12,9 @@
 			</ul> -->
 
 
-
 		{% elsif page.url == "/cv/" %}
 			{% include cv.html %}
-<!-- PAGE URL -->
-{{% page.url %}}
 
-<!-- SITE URL -->
-{{% site.url %}}
 
 		{% elsif page.url == "/projetos/" %}
 			{% include projetos.html %}
