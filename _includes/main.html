@@ -1,6 +1,9 @@
 <!-- Main -->
 	<div id="main">
 
+<!-- PAGE URL -->
+{{% page.url %}}
+
 		{% if page.url == "/index/" %}
 			{% include posts.html %}
 			<!-- Pagination -->
@@ -8,6 +11,9 @@
 				<li><a href="" class="disabled button big previous">Anterior</a></li>
 				<li><a href="#" class="button big next">Próxima</a></li>
 			</ul> -->
+
+<!-- SITE URL -->
+{{% site.url %}}
 
 		{% elsif page.url == "/cv/" %}
 			{% include cv.html %}
