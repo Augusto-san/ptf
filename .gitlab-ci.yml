@@ -26,9 +26,9 @@ pages:
 title: Augusto César | Bytes de Tecnologia
 email: augusttto.cesar@gmail.com
 url: {{ site.github.url }}
-description: "This site contains a portfolio of digital arts, crytpo art, nfts and was created by augusto cesar."
-keywords: "Art, digital art, portfolio, nft, crypto art, augusto cesar, aucar"
-skills: "Digital Designer & Programmer"
+description: ""
+keywords: ""
+skills: ""
 meta_author: Augusto Cesar Barbosa do Nascimento 
 
 # Google webmaster tools
