@@ -3,7 +3,7 @@
 
 
 
-		{% if page.url == "/index/" %}
+		{% if page.url == "" %}
 			{% include posts.html %}
 			<!-- Pagination -->
 <!-- 			<ul class="actions pagination">
@@ -33,10 +33,6 @@
 
 		{% elsif page.url == "/contato/" %}
 			{% include contato.html %}
-
-
-		{% else %}
-			{% include posts.html %}
 
 
 		{% endif %}
