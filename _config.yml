@@ -1,10 +1,10 @@
 # Site settings
-title: Augusto César | Bytes de Tecnologia
+title: Augusto César | Bytes de Informação
 email: augusttto.cesar@gmail.com
 url: {{ site.github.url }}
 description: ""
-keywords: ""
-skills: ""
+keywords: "portfolio, programação, tecnologia, linguagem r, business intelligence, augusto cesar barbosa do nascimento"
+skills: "Programador e Autodidata"
 meta_author: Augusto Cesar Barbosa do Nascimento 
 
 # Google webmaster tools
