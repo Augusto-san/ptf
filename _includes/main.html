@@ -11,8 +11,6 @@
 				<li><a href="#" class="button big next">Próxima</a></li>
 			</ul> -->
 
-		<p>teste</p>
-
 		{% elsif page.url == "/cv/" %}
 			{% include cv.html %}
 
@@ -35,6 +33,10 @@
 
 		{% elsif page.url == "/contato/" %}
 			{% include contato.html %}
+
+
+		{% else %}
+			{% include posts.html %}
 
 
 		{% endif %}
