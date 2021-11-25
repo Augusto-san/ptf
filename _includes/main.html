@@ -1,8 +1,8 @@
 <!-- Main -->
 	<div id="main">
 
-		{% if page.url == "/index" %}
-			{% include cv.html %}
+		{% if page.url == "/index/" %}
+			{% include posts.html %}
 			<!-- Pagination -->
 <!-- 			<ul class="actions pagination">
 				<li><a href="" class="disabled button big previous">Anterior</a></li>
@@ -10,7 +10,7 @@
 			</ul> -->
 
 		{% elsif page.url == "/cv/" %}
-			{% include posts.html %}
+			{% include cv.html %}
 
 		{% elsif page.url == "/projetos/" %}
 			{% include projetos.html %}
