@@ -1,8 +1,7 @@
 <!-- Main -->
 	<div id="main">
 
-<!-- PAGE URL -->
-{{% page.url %}}
+
 
 		{% if page.url == "/index/" %}
 			{% include posts.html %}
@@ -12,11 +11,15 @@
 				<li><a href="#" class="button big next">Próxima</a></li>
 			</ul> -->
 
-<!-- SITE URL -->
-{{% site.url %}}
+
 
 		{% elsif page.url == "/cv/" %}
 			{% include cv.html %}
+<!-- PAGE URL -->
+{{% page.url %}}
+
+<!-- SITE URL -->
+{{% site.url %}}
 
 		{% elsif page.url == "/projetos/" %}
 			{% include projetos.html %}
