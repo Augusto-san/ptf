@@ -3506,6 +3506,10 @@
 	margin-left: 50%;
 }
 
-.div_text, #credito_flaticon{
+.div_text{
 	margin-left: 47%;
+}
+
+#credito_flaticon{
+	margin-left: 41%;
 }
