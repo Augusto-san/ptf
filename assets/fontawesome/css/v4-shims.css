@@ -1064,7 +1064,7 @@
 .fa.fa-envelope-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
-  font-size: 20px; }
+  }
 
 .fa.fa-envelope-o:before {
   content: "\f0e0"; }
