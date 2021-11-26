@@ -568,7 +568,8 @@ readers do not read off random characters that represent icons */
   content: "\f781"; }
 
 .fa-blogger:before {
-  content: "\f37c"; }
+  content: "\f37c";
+  font-size: 20px; }
 
 .fa-blogger-b:before {
   content: "\f37d"; }
@@ -3427,7 +3428,8 @@ readers do not read off random characters that represent icons */
   content: "\f3ec"; }
 
 .fa-shapes:before {
-  content: "\f61f"; }
+  content: "\f61f";
+  font-size: 20px; }
 
 .fa-share:before {
   content: "\f064"; }
