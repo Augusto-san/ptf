@@ -4594,6 +4594,7 @@ readers do not read off random characters that represent icons */
   padding: 5px;
   font-size: 20px;
   }
+
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -4608,6 +4609,7 @@ readers do not read off random characters that represent icons */
   padding: 5px;
   font-size: 20px;
 }
+
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
