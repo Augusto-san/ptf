@@ -2018,7 +2018,8 @@
 
 .fa.fa-address-card-o {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 400; }
+  font-weight: 400; 
+  font-size: 20px; }
 
 .fa.fa-address-card-o:before {
   content: "\f2bb"; }
