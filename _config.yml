@@ -1,5 +1,5 @@
 # Site settings
-title: Augusto César | Bytes de Informação
+title: Augusto César | Tome Bytes
 email: augusttto.cesar@gmail.com
 url: {{ site.github.url }}
 description: ""
