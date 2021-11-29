@@ -1408,6 +1408,16 @@
 			min-width: 320px;
 		}
 
+		.div_text{
+			margin-left: 22%;
+		}
+		#div_download{
+			margin-left: 35%;
+		}
+		#credito_flaticon{
+			margin-left: 6%;
+		}
+
 	}
 
 	body {
@@ -3341,7 +3351,7 @@
 		#icons{
 			margin-left: none;
 		}
-		
+
 		#intro {
 			margin: 0 0 1.5em 0;
 			padding: 1.25em 0;
