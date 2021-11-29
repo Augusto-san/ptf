@@ -1409,13 +1409,13 @@
 		}
 
 		.div_text{
-			margin-left: 22%;
-		}
-		#div_download{
 			margin-left: 35%;
 		}
+		#div_download{
+			margin-left: 44%;
+		}
 		#credito_flaticon{
-			margin-left: 6%;
+			margin-left: 25%;
 		}
 
 	}
@@ -3516,11 +3516,11 @@
 			width: 4em;
 		}
 
-/*#credito_flaticon{
+#credito_flaticon{
 	font-size: 10px;
-	margin-left: 41%;
+/*	margin-left: 41%;*/
 }
-
+/*
 #div_download{
 	margin-left: 50%;
 }
@@ -3531,4 +3531,17 @@
 
 ul.icons{
 	margin-left: 15%;
+}
+
+
+@media screen and (max-width: 380px) {
+		.div_text{
+			margin-left: 22%;
+		}
+		#div_download{
+			margin-left: 35%;
+		}
+		#credito_flaticon{
+			margin-left: 6%;
+		}	
 }
