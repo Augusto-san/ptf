@@ -2739,6 +2739,16 @@
 
 		@media screen and (max-width: 980px) {
 
+		.div_text{
+			margin-left: 40%;
+		}
+		#div_download{
+			margin-left: 45%;
+		}
+		#credito_flaticon{
+			margin-left: 35%;
+		}	
+
 			.post {
 				border-left: 0;
 				border-right: 0;
