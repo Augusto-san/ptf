@@ -3227,9 +3227,9 @@
 		/* esse aqui funciona, até 1680px essa formatação é aplicada */
 		@media screen and (max-width: 1680px) {
 
-			body{
+/*			body{
 				background-color: red;
-			}
+			}*/
 
 			#wrapper {
 				padding: 3em;
@@ -3578,3 +3578,8 @@
 }
 
 
+@media screen and (min-width: 1280px) {
+	body{
+		background-color: red;
+	}
+}
