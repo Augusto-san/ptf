@@ -3200,6 +3200,9 @@
 			#wrapper {
 				padding: 3em;
 			}
+			ul.icons{
+	margin-left: 15%;
+}
 
 		}
 
@@ -3529,9 +3532,7 @@
 	margin-left: 45%;
 }*/
 
-ul.icons{
-	margin-left: 15%;
-}
+
 
 
 @media screen and (max-width: 380px) {
