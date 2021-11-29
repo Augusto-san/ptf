@@ -3217,6 +3217,10 @@
 		/* esse aqui funciona, até 1680px essa formatação é aplicada */
 		@media screen and (max-width: 1680px) {
 
+		ul.icons{
+			margin-left: 15%;
+		}
+
 			#wrapper {
 				padding: 3em;
 			}
@@ -3563,6 +3567,3 @@
 		}	
 }
 
-ul.icons{
-	margin-left: 15%;
-}
