@@ -3210,9 +3210,6 @@
 			#wrapper {
 				padding: 3em;
 			}
-			ul.icons{
-	margin-left: 15%;
-}
 
 		}
 
@@ -3554,4 +3551,8 @@
 		#credito_flaticon{
 			margin-left: 6%;
 		}	
+}
+
+ul.icons{
+	margin-left: 15%;
 }
