@@ -3317,6 +3317,10 @@
 	/* esse aqui funciona, até 1280px essa formatação será aplicada */
 	@media screen and (max-width: 1280px) {
 
+		#icons{
+			margin-left: none;
+		}
+
 		#intro {
 			margin: 0 0 3em 0;
 			text-align: center;
@@ -3334,6 +3338,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		#icons{
+			margin-left: none;
+		}
+		
 		#intro {
 			margin: 0 0 1.5em 0;
 			padding: 1.25em 0;
@@ -3512,4 +3520,8 @@
 
 #credito_flaticon{
 	margin-left: 41%;
+}
+
+#icons{
+	margin-left: 15%;
 }
