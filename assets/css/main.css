@@ -1419,13 +1419,13 @@
 		}
 
 		.div_text{
-			margin-left: 32%;
+			margin-left: 32% !important;
 		}
 		#div_download{
-			margin-left: 41%;
+			margin-left: 41% !important;
 		}
 		#credito_flaticon{
-			margin-left: 22%;
+			margin-left: 22% !important;
 		}
 
 	}
