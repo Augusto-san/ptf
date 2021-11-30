@@ -3579,7 +3579,7 @@
 
 
 @media screen and (min-width: 1280px) {
-	body{
-		background-color: red;
+	ul.icons{
+		margin-left: 15%;
 	}
 }
