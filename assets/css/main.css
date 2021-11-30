@@ -1418,16 +1418,6 @@
 			min-width: 320px;
 		}
 
-		.div_text{
-			margin-left: 32%;
-		}
-		#div_download{
-			margin-left: 41%;
-		}
-		#credito_flaticon{
-			margin-left: 22%;
-		}
-
 	}
 
 	body {
@@ -3585,4 +3575,19 @@
 	#credito_flaticon{
 		margin-left: 35%;
 	}	
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.div_text{
+		margin-left: 32%;
+	}
+	#div_download{
+		margin-left: 41%;
+	}
+	#credito_flaticon{
+		margin-left: 22%;
+	}
+
 }
