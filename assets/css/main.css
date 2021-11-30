@@ -3361,10 +3361,6 @@
 	/* esse aqui funciona, até 1280px essa formatação será aplicada */
 	@media screen and (max-width: 1280px) {
 
-		ul.icons{
-			margin-left: none;
-		}
-
 		#intro {
 			margin: 0 0 3em 0;
 			text-align: center;
@@ -3382,9 +3378,6 @@
 
 	@media screen and (max-width: 736px) {
 
-		ul.icons{
-			margin-left: none;
-		}
 
 		#intro {
 			margin: 0 0 1.5em 0;
