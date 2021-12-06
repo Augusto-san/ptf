@@ -1,4 +1,4 @@
 ---
-layout: formulario
+layout: default
 permalink: /formulario/
 ---
