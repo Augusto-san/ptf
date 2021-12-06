@@ -27,12 +27,16 @@
 			{% include blog.html %}
 			<!-- Pagination -->
 			<ul class="actions pagination">
-				<li><a href="" class="disabled button big previous">Anterior</a></li>
+				<li><a href="#" class="disabled button big previous">Anterior</a></li>
 				<li><a href="#" class="button big next">Próxima</a></li>
 			</ul>
 
 		{% elsif page.url == "/contato/" %}
 			{% include contato.html %}
+
+
+		{% elsif page.url == "/formulario/" %}
+			{% include formulario.html %}
 
 
 		{% else %}
