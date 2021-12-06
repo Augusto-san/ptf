@@ -3595,3 +3595,7 @@
 div.title > h2{
 	text-align: center;
 }
+
+div.title > p {
+	text-align: center;
+}
