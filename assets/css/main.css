@@ -3599,3 +3599,7 @@ div.title > h2{
 div.title > p {
 	text-align: center;
 }
+
+.lista-conhecimentos{
+	list-style-type: none;
+}
