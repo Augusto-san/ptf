@@ -3603,3 +3603,7 @@ div.title > p {
 .lista-conhecimentos{
 	list-style-type: none;
 }
+
+.span-aqui{
+	color: red;
+}
