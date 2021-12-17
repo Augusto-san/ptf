@@ -2293,7 +2293,7 @@
 
 
 			.div_text{
-				margin-left: 41%;
+				margin-left: 40%;
 			}
 			#div_download{
 				margin-left: 45%;
@@ -2740,7 +2740,7 @@
 		@media screen and (max-width: 980px) {
 
 		.div_text{
-			margin-left: 40%;
+			margin-left: 35%;
 		}
 		#div_download{
 			margin-left: 45%;
@@ -3581,7 +3581,7 @@
 @media screen and (max-width: 480px) {
 
 	.div_text{
-		margin-left: 32%;
+		margin-left: 20%;
 	}
 	#div_download{
 		margin-left: 41%;
