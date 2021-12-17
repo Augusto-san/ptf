@@ -3605,5 +3605,5 @@ div.title > p {
 }
 
 .span-aqui{
-	color: red;
+	color: red !important;
 }
